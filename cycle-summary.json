@@ -1,15 +1,17 @@
 {
- "ran_at": "2026-11-22T18:17:30+05:00",
- "active": 201,
- "counts": {
-  "red": 21,
-  "orange": 139,
-  "green": 41
+ "at": "2026-11-23 00:00",
+ "points": 68,
+ "colors": {
+  "red": 59,
+  "orange": 4,
+  "green": 4
  },
- "checked": 6,
- "closed": 0,
- "blocked": 6,
- "errors": 0,
- "removed_ids": [],
- "checked_limit": 6
+ "red_reasons": {
+  "R1": 25,
+  "R2": 57,
+  "R3": 1
+ },
+ "pending": 1,
+ "next_run": "2026-11-26 09:00",
+ "rules": "R1 вуз/общежитие ≤500 м; R2 крупная сеть ≤500 м и пешком ≤700 м; R3 новый ЖК ≤150 м"
 }
