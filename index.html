@@ -860,6 +860,21 @@ document.getElementById('b-list').onclick = ()=>{
 };
 
 render();
+
+// ссылка на конкретный объект: ?focus=улица Цюрупы, 130
+(function(){
+  const q = new URLSearchParams(location.search).get('focus');
+  if (!q) return;
+  const probe = q.trim().toLowerCase();
+  const hit = DATA.points.find(p => (p.address||'').toLowerCase().includes(probe)) ||
+              DATA.points.find(p => p.id === q);
+  if (!hit) return;
+  map.setView([hit.lat, hit.lon], 18);
+  setTimeout(function(){
+    const m = lastMarkers.find(x => x.p === hit);
+    if (m) m.m.openPopup();
+  }, 1200);
+})();
 </script>
 </body>
 </html>
