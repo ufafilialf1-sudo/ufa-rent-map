@@ -1816,14 +1816,218 @@
    "coords_source": "OSM Nominatim: здание 17 по запросу «ул. Максима Рыльского 17, Уфа»",
    "checked_at": "2026-11-24T02:08",
    "url": "https://www.avito.ru/ufa/kommercheskaya_nedvizhimost/torgovaya_ploschad_38_m_7488902528"
+  },
+  {
+   "id": "4199298283",
+   "address": "Уфа, ул. Шота Руставели, 39",
+   "district": "Орджоникидзевский",
+   "area": 25.0,
+   "price": 44000,
+   "price_m2": 1760,
+   "floor": "1",
+   "entrance": "с улицы",
+   "rent_type": "прямая",
+   "lat": 54.793246,
+   "lon": 56.052581,
+   "priority": "grey",
+   "color_label": "серый",
+   "color_reason": "объекты 300–450 м без подтверждённого пешего маршрута — требует проверки",
+   "counts": {
+    "vuz_500": 0,
+    "dorm_500": 0,
+    "chain_300": 0,
+    "catering_300": 0,
+    "chain_300_450_confirmed": 0,
+    "catering_300_450_confirmed": 0,
+    "newbuild_150": 0
+   },
+   "features": [
+    {
+     "kind": "chain",
+     "kind_label": "крупная сеть",
+     "name": "Красное&Белое",
+     "m": 383,
+     "walk": 512,
+     "confirmed": false,
+     "note": "маршрут длиннее 450 м — не учитывается"
+    },
+    {
+     "kind": "chain",
+     "kind_label": "крупная сеть",
+     "name": "Магнит",
+     "m": 438,
+     "walk": 599,
+     "confirmed": false,
+     "note": "маршрут длиннее 450 м — не учитывается"
+    },
+    {
+     "kind": "chain",
+     "kind_label": "крупная сеть",
+     "name": "Пятёрочка",
+     "m": 442,
+     "walk": 541,
+     "confirmed": false,
+     "note": "маршрут длиннее 450 м — не учитывается"
+    }
+   ],
+   "requires_check": [
+    "Магнит в 438 м по прямой: пеший маршрут 599 м, дальше 450 м — в зачёт не идёт",
+    "Пятёрочка в 442 м по прямой: пеший маршрут 541 м, дальше 450 м — в зачёт не идёт",
+    "Красное&Белое в 383 м по прямой: пеший маршрут 512 м, дальше 450 м — в зачёт не идёт"
+   ],
+   "geo_precision": "дом",
+   "coords_source": "OSM Nominatim: house_number 39 по запросу «39 Шота Руставели Уфа»",
+   "checked_at": "2026-11-24T09:52",
+   "url": "https://www.avito.ru/ufa/kommercheskaya_nedvizhimost/torgovaya_ploschad_25_m_4199298283"
+  },
+  {
+   "id": "8439314567",
+   "address": "Уфа, б-р Тухвата Янаби, 51",
+   "district": "Калининский",
+   "area": 36.0,
+   "price": 45000,
+   "price_m2": 1250,
+   "floor": "1",
+   "entrance": "с улицы",
+   "rent_type": "прямая",
+   "lat": 54.778456,
+   "lon": 56.125096,
+   "priority": "orange",
+   "color_label": "жёлтый",
+   "color_reason": "есть только сеть/общепит в 300 м",
+   "counts": {
+    "vuz_500": 0,
+    "dorm_500": 0,
+    "chain_300": 5,
+    "catering_300": 0,
+    "chain_300_450_confirmed": 0,
+    "catering_300_450_confirmed": 0,
+    "newbuild_150": 0
+   },
+   "features": [
+    {
+     "kind": "chain",
+     "kind_label": "крупная сеть",
+     "name": "Пятёрочка",
+     "m": 102,
+     "walk": null,
+     "confirmed": true,
+     "note": null
+    },
+    {
+     "kind": "chain",
+     "kind_label": "крупная сеть",
+     "name": "Монетка",
+     "m": 259,
+     "walk": null,
+     "confirmed": true,
+     "note": null
+    },
+    {
+     "kind": "chain",
+     "kind_label": "крупная сеть",
+     "name": "Пятёрочка",
+     "m": 269,
+     "walk": null,
+     "confirmed": true,
+     "note": null
+    },
+    {
+     "kind": "chain",
+     "kind_label": "крупная сеть",
+     "name": "Красное&Белое",
+     "m": 294,
+     "walk": null,
+     "confirmed": true,
+     "note": null
+    },
+    {
+     "kind": "chain",
+     "kind_label": "крупная сеть",
+     "name": "Магнит",
+     "m": 298,
+     "walk": null,
+     "confirmed": true,
+     "note": null
+    },
+    {
+     "kind": "chain",
+     "kind_label": "крупная сеть",
+     "name": "Магнит",
+     "m": 315,
+     "walk": 511,
+     "confirmed": false,
+     "note": "маршрут длиннее 450 м — не учитывается"
+    },
+    {
+     "kind": "chain",
+     "kind_label": "крупная сеть",
+     "name": "Fix Price",
+     "m": 356,
+     "walk": 589,
+     "confirmed": false,
+     "note": "маршрут длиннее 450 м — не учитывается"
+    },
+    {
+     "kind": "chain",
+     "kind_label": "крупная сеть",
+     "name": "Пятёрочка",
+     "m": 358,
+     "walk": 541,
+     "confirmed": false,
+     "note": "маршрут длиннее 450 м — не учитывается"
+    },
+    {
+     "kind": "chain",
+     "kind_label": "крупная сеть",
+     "name": "Монетка",
+     "m": 369,
+     "walk": 476,
+     "confirmed": false,
+     "note": "маршрут длиннее 450 м — не учитывается"
+    },
+    {
+     "kind": "chain",
+     "kind_label": "крупная сеть",
+     "name": "Красное&Белое",
+     "m": 384,
+     "walk": 457,
+     "confirmed": false,
+     "note": "маршрут длиннее 450 м — не учитывается"
+    },
+    {
+     "kind": "chain",
+     "kind_label": "крупная сеть",
+     "name": "Магнит",
+     "m": 416,
+     "walk": 580,
+     "confirmed": false,
+     "note": "маршрут длиннее 450 м — не учитывается"
+    }
+   ],
+   "requires_check": [
+    "Пятёрочка в 358 м по прямой: пеший маршрут 541 м, дальше 450 м — в зачёт не идёт",
+    "Красное&Белое в 384 м по прямой: пеший маршрут 457 м, дальше 450 м — в зачёт не идёт",
+    "Fix Price в 356 м по прямой: пеший маршрут 589 м, дальше 450 м — в зачёт не идёт",
+    "Магнит в 315 м по прямой: пеший маршрут 511 м, дальше 450 м — в зачёт не идёт",
+    "Магнит в 416 м по прямой: пеший маршрут 580 м, дальше 450 м — в зачёт не идёт",
+    "Монетка в 369 м по прямой: пеший маршрут 476 м, дальше 450 м — в зачёт не идёт"
+   ],
+   "geo_precision": "дом",
+   "coords_source": "OSM Nominatim: house_number 51 по запросу «Тухвата Янаби 51 Уфа»",
+   "checked_at": "2026-11-24T09:53",
+   "url": "https://www.avito.ru/ufa/kommercheskaya_nedvizhimost/torgovaya_ploschad_s_otdelnym_vhodom_36_m_8439314567"
   }
  ],
  "counts": {
   "red": 2,
-  "orange": 8,
-  "green": 9
+  "orange": 9,
+  "green": 9,
+  "grey": 1
  },
- "source": "avito",
- "data_at": "2026-11-24T02:08+0500",
- "built_at": "24.11.2026 02:11"
+ "rejected": [],
+ "source_total": 21,
+ "features_total": 143,
+ "data_at": "2026-11-24T09:53+0500",
+ "built_at": "24.11.2026 09:55"
 }

@@ -1,11 +1,12 @@
 {
- "at": "24.11.2026 02:11",
- "points": 19,
+ "at": "24.11.2026 09:55",
+ "points": 21,
  "colors": {
   "red": 2,
-  "orange": 8,
-  "green": 9
+  "orange": 9,
+  "green": 9,
+  "grey": 1
  },
- "features": 129,
+ "features": 143,
  "source": "avito"
 }
